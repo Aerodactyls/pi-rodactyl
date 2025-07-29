@@ -1,0 +1,22 @@
+{
+  "NavigateToPoi": {
+    "x": 25,
+    "y": -15
+  },
+  "DescendPoi": {
+    "x": 25,
+    "y": 70
+  },
+  "Idle": {
+    "x": 505,
+    "y": 55
+  },
+  "PreSearchGrid": {
+    "x": 25,
+    "y": -100
+  },
+  "ArmToRtl": {
+    "x": 305,
+    "y": 605
+  }
+}

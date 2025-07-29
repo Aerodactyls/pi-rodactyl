@@ -1,0 +1,16 @@
+#https://askubuntu.com/questions/676007/how-do-i-make-my-systemd-service-run-via-specific-user-and-start-on-boot
+#https://serverfault.com/questions/252137/how-to-automatically-restart-a-service-on-failure-in-linux
+
+[Unit]
+Description=pi-rodactyl, the companion computer software
+After=multi-user.target
+
+[Service]
+Restart=always
+User=pi
+
+ExecStart=/home/pi/pi-rodactyl/drone/venv/bin/python /home/pi/pi-rodactyl/drone/main.py
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+future
+lxml
+pymavlink
+opencv-python
+depthai
+opencv-python
+numpy
+pyzbar
+#schedule
+apscheduler
+pyserial
