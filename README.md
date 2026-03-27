@@ -60,4 +60,4 @@ cd ui && venv\Scripts\python api\index.py
 
 # Credits
 
-Written by: [Chandu Peddada (Chanadu)](https://github.com/Chanadu), osirais, UnityGranted, and Luc215
+Written by: [Chandu Peddada (Chanadu)](https://github.com/Chanadu), osirais, UnityGranted, and [Lucas Lyubenko (Luc215)](https://github.com/Luc215)
